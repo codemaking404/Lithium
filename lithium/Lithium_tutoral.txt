@@ -1,0 +1,71 @@
+Getting Started with .lit Files in Lithium
+
+A .lit file is a Lithium script. It is just a plain text file that contains commands for Lithium to run automatically. Think of it like a batch file, but for Lithium.
+
+Creating a .lit File
+
+Open Notepad (or any text editor).
+
+Save the file as test.lit (make sure the extension is .lit, not .txt).
+In Notepad’s Save As dialog:
+File name: "test.lit" (use quotes to force .lit)
+Save as type: All Files
+
+Writing Your First Script
+
+Inside your .lit file, write Lithium commands exactly like you would type them in the console. For example:
+
+note Hello, this is my first Lithium script!
+note I can save notes into the console.
+time
+random 1 10
+
+What this script does:
+
+Saves two notes.
+
+Prints the current time.
+
+Generates a random number between 1 and 10.
+
+Running Your Script
+
+Method 1: From inside Lithium
+
+Open Lithium Console.
+
+Type:
+run test.lit
+
+Method 2: From command line (if using Lithium.exe)
+Lithium.exe test.lit
+
+Adding More Commands
+
+Some useful commands you can include:
+colors lime black changes console colors
+vars shows all stored variables
+website https://example.com
+ opens a website
+list:start ... list:end groups multiple commands
+[chain_start] ... [chain_end_loop_number=3] repeats commands
+
+Example:
+
+colors lime black
+note Running a loop!
+[chain_start]
+random 1 5
+[chain_end_loop_number=3]
+
+This will generate 3 random numbers.
+
+Tips
+
+Lines starting with # are comments.
+
+Keep your .lit files in the same folder as Lithium, or provide a full path.
+
+Use help <command> inside Lithium to see details for each command.
+
+Congratulations! You just made your first Lithium script.

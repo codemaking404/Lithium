@@ -1,0 +1,5 @@
+> > print ("amoung us"){list:start}
+> print ("amoung us1"){list:keep}
+> print ("amoung us2"){list:end}
+> export myfile.lit
+

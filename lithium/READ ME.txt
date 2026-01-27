@@ -1,0 +1,7 @@
+incase you need anything. contact me at MaddoxSjogren.gmail.com
+Lithium is currently in v1.0.0, and I might not update it.
+In case you are wondering, lithium is made by nature. Please do not sell this. all lithium links should be currently available at maddoxsjogren.online
+type help in the console for the basics
+Use the command quit to close the console and logs
+put lithium_bootup_lit in your drives may folder. 
+enjoy

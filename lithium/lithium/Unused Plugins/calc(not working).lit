@@ -1,0 +1,17 @@
+plug
+# Simple Calculator Plugin for Lithium
+
+print("Do you want to use this plugin? (calculator)")
+user_input = input("Type yes or no: ")
+
+if user_input.lower() in ["yes", "y"]:
+    # Create a calculator window
+    window.create("Calculator")
+
+    # Put text into the window
+    edit_window_contents(text="Welcome to the Calculator!\nTry expressions like 3+3 or use gate and/or/xor/not.", allow_text_editing=True)
+
+    # Add to help docs
+    lithum_help_add_calculator = "Opens a calculator window and allows editing contents with expressions or gate logic."
+else:
+    print("Calculator plugin not loaded.")

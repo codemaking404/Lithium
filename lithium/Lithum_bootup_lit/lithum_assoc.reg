@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\.lit]
+@="LithumFile"
+
+[HKEY_CLASSES_ROOT\LithumFile\shell\open\command]
+@="\"C:\\Users\\Maddo\\AppData\\Local\\Programs\\Python\\Python313\\pythonw.exe\" \"C:\\Lithum\\console.pyw\" \"%1\""
+
